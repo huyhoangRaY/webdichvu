@@ -1,0 +1,139 @@
+
+
+.layout_account {
+    padding: 100%;
+    z-index: 20000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.login {
+    max-width: 100%;
+    width: 335px;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    margin: 20px auto 0px;
+}
+
+.login-delete {
+    right: 20px;
+    font-size: 1.8rem;
+    color: var(--primary2-color);
+    top: 10px;
+    cursor: pointer;
+}
+
+.login h3 {
+    color: var(--primary1-color);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.login h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--primary1-color);
+}
+
+.login__title {
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.box-icon {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: rgba(204, 204, 204, 1);
+    text-align: center;
+    background-color: rgba(238, 238, 238, 1);
+    border: 1px solid rgba(221, 221, 221, 1);
+    display: table-cell;
+    width: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.box__text {
+    display: table-cell;
+    width: 100%;
+    border: 1px solid rgba(181, 181, 181, 1);
+    border-color: rgba(221, 221, 221, 1);
+    padding: 8px 15px;
+    font-size: 14px;
+    color: var(--primary1-color);
+    min-height: 40px;
+    border-radius: 0 5px 5px 0 !important;
+}
+
+.select-form {
+    min-height: 40px;
+    font-size: 1.3rem !important;
+}
+
+.login-btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-color);
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 35px;
+    background: var(--primary2-color);
+    text-align: center;
+    border: none;
+    animation: button 2s ease-out infinite normal;
+    border-radius: 10px;
+}
+
+.required__password a {
+    color: var(--black-color);
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s
+}
+
+.required__password a:hover {
+    color: var(--primary1-color)
+}
+
+.login__btn-socialnetwork {
+    border-radius: 100px;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.login__btn-socialnetwork span {
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 1s ease;
+    transform: translateX(0);
+}
+
+.login__btn-socialnetwork span:hover {
+    transform: translateX(20%)
+}
+
+.invalid {
+    color: red;
+    font-size: 1.4rem;
+    transition: all 0.3s linear;
+}
